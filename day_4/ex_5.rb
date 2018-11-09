@@ -1,14 +1,14 @@
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
-cheese_and_crackers
+end
 
 def subtract(a, b)
   puts "SUBTRACTING #{a} - #{b}"
   return a - b
 end
 
-def nultiply(a, b)
+def multiply(a, b)
   puts "MULTIPLYING #{a} * #{b}"
   return a * b
 end
@@ -29,9 +29,9 @@ iq = divide(100, 2)
 puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 
 
-# A puzzle for extra credit, type it in anyway.
+# A puzzle for the extra credit, type it in anyway.
 puts "Here is a puzzle."
 
-what = add(age, subtract(height, mmultiply(weight, divide (iq, 2))))
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"

@@ -3,10 +3,10 @@
 # file from your terminal with the command `ruby day_1/exercises/variables.rb`
 
 # example: Write code that combines the variables below into another string:
-# name = "Ron"
-# team = "Chudley Cannons"
+name = "Ron"
+team = "Chudley Cannons"
 
-# p "The #{team} are #{name}'s favorite Quidditch team"
+p "The #{team} are #{name}'s favorite Quidditch team"
 
 # Write code that combines the variables below into a string that reads "The
 # quick red fox jumped over the lazy brown dog":
@@ -20,4 +20,4 @@ p "The #{speedy} jumped over the #{slow_poke}."
 slow_poke = "tortoise"
 speedy = "hare"
 
-p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
+p "In a predictable result, #{slow_poke} beat the #{speedy}!"

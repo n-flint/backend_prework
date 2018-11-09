@@ -1,30 +1,28 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-puts "Hello World!"
+  p "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
-The character is #
+  #
 
 1. Explain the difference between an integer and a float?
-An integer is one digit, a float includes a decimal, ex (10.00)
+  An integer is a whole number, with no decimal. A float has a decimal point.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-animal = "a huge zebra"
+  animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
-puts "My favorite animal is #{animal}!"
+  p animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-Interpolation is used to insert data into the middle of a string. It only works in a double
-quoted string, and evaluates what ever is in the brackets.
-animal = "elephant"
-puts "Is an #{animal} the largest living thing with a trunk?"
+  Interpolation is when you access a variable within a string.
+  p "My favorite animal is #{animal}."
 
 1. How do we get input from a user? What is the method that we would use?
-You can get the input from the user using the command "gets", and can also use the command
-gets.chomp in order to remove the new line character inputed by the user.
+  To get info from a user, use the command 'gets'. We use the method 'gets.chomp' to get the input
+  as well as remove the enter character that the user entered.
 
 1. Name and describe two common string methods.
-.length is a common method. This tells you how many characters are in the string.
-.split is another method. This breaks the string into parts, such as words.
+  str.capitalize - This returns a string with the first character capitalized.
+  str.upcase - This returns a string with every character capitalized.

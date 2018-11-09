@@ -1,33 +1,35 @@
 ## Day 3 Questions
 
 1. What is a conditional statement? Give three examples.
-A conditional statement evaluates to 'true' or 'false'. Three common ones are
-== (equal), > (greater than) and < (less than).
+Condition statements evaluate to true or false. (==) is seeing if things are equal to each other.
+(<) is the less than comparison, seeing if something is less than the other. (>=) is the greater
+or equal comparison, seeing if something is greater or equal to each other.
 
 1. Why might you want to use an if-statement?
-The 'if-statement' allows the program to take a different path depending on the
-outcome of the conditions in the 'if-statement'.
+This is used to see if a condition meets a certain condition that is decided in the if statement. If these
+conditions are not met, then the code moves on to the else portion of the if loop.
 
 1. What is the Ruby syntax for an if statement?
-age = 85
-if age <= "85"
-  puts "Hey there, youngin!"
-else
-  puts "Holy Toledo! You are quite old."
-end
+The syntax for the if statement is:
+if condition = something
+puts something or does something
+else (if the first condition isn't met)
+puts something or does something else
+end (every loop has to have an end)
 
 1. How do you add multiple conditions to an if statement?
-The && signs searches for both conditions, while the || searches for either condition.
+Besides the 'if' and 'else' conditions, you can use 'elsif' to add multiple conditions.
 
 1. What is the Ruby syntax for an if/elsif/else statement?
-number = 7
-if number < 7
-  p "Guess again..."
-elsif number > 7
-  p "Keep guessing..."
+if number == 4
+  puts "Four!"
+elsif number < 4
+  puts "Too low!"
+elsif number > 4
+  puts "Too high!
 else
-  p "Winner winner chicken dinner!"
+  puts "What did you pick?!"
 end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-There is also an "Unless" operator. This seems to be easier to use than the "!" sign.
+You could also use a while loop.

@@ -1,20 +1,26 @@
-Q - What does each array method do?
+Describe what each method does.
 
-.last - prints out the last string or number in an array
+<< - This is the shovel operator, it adds a new element to the end of the array.
 
-.sort - returns a new array where the elements are sorted. If strings, they are
-sorted alphabetically, if numbers, they are sorted in ascending value order.
+array[1] - Returns an element at a certain location in the array.
 
-.join - merges the whole array into one string
+array.last - Returns the last element of the array
 
-.index - find the addresses of specific elements of the array
+array.sort - Returns an array with the elements sorted. The elements are sorted alphabetically if they
+  are strings. If the elements are numbers, they are sorted numerically.
 
-.included? - find if a certain element is present in the array
+array.each - This iterates over the elements of the array, and changes the elements depending on how you
+  define the parameters in {}
 
-.each - you can iterate through each element
+array.join - Returns an array with all the elements joined together as one element.
 
-.collect - can change characters in an array, or add characters
+array.index - This is how you find an element by entering in the correct index.
 
-.first .last -  returns the first or last element of an array
+array.include? - This searches the array and returns yes if the element you are searching for is included
+  in the array you are searching.
 
-.shuffle - returns new array with the elements shuffled into a new order
+array.collect - This is the same as .each, but this one returns a new array.
+
+array.first - This returns the first element in the array.
+
+array.shuffle - This returns a new array, with the elements shuffled in a random order.

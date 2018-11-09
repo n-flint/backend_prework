@@ -19,14 +19,13 @@ end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-foods = ["Rice", "Tomatoes", "Chicken"]
-
+foods = ["Eggs", "Milk", "Bread"]
 foods.each do |food|
-  p "Add #{food} to the shopping list."
+  p "Add #{food} to a shopping list"
 end
-
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-numbers  = [1,2,3,4]
-numbers.map!{|x| x * 2}
-p numbers
+numbers = [1,2,3,4,5]
+numbers.each do |number|
+  p number * 2
+end

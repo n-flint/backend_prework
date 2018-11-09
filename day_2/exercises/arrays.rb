@@ -8,11 +8,11 @@ animals = ["Zebra", "Giraffe", "Elephant"]
 p animals
 
 # Write code below that will print an array of states. Store the array in a variable.
-states = ["Colorado", "California", "Texas"]
+states = ["Colorado", "Utah", "Texas"]
 p states
 
 # Write code below that will print an array of foods. Store the array in a variable.
-foods = ["Steak", "Salmon", "Broccoli"]
+foods = ["Steak", "Fries", "Spinach"]
 p foods
 
 # example: Write code below that will print the number of elements in array of
@@ -24,15 +24,17 @@ p animals.count
 p foods.count
 
 # Write code below that will print "Zebra" from the animals array
-p animals[0]
+p animals.first
 
 # Write code below that will print the last item from the foods array.
 p foods.last
+
 # Write code below that uses a method to add "lion" to the animals array and
 # print the result
-animals << "lion"
+animals << "Lion"
 p animals
 
 # Write code below that removes the last item of food from the foods array and
 # print the result
-p foods.first 2
+foods.delete_at(2)
+p foods

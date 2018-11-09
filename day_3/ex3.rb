@@ -14,13 +14,13 @@ if door == "1"
   if bear == "1"
     puts "The bear eats your face off. Good job!"
   elsif bear == "2"
-    puts "The bear eats your legs off. Good Job!"
+    puts "The bear eats your legs off. Good job!"
   else
-    puts "Well, doing %s is probably better. Bear runs away." % bear
+    puts "Well, doing %s is probaly better. Beart runs away." % bear
   end
 
 elsif door == "2"
-  puts "You stare into the endless abyss at Cthulu's retina."
+  puts "You stare into the endless abyss at Cthulu's retnia."
   puts "1. Blueberries."
   puts "2. Yellow jacket clothespins."
   puts "3. Understanding revolvers yelling melodies."
@@ -32,6 +32,21 @@ elsif door == "2"
     puts "Your body survives powered by a mind of jello. Good job!"
   else
     puts "The insanity rots your eyes into a pool of muck. Good job!"
+  end
+
+elsif door == "4"
+  puts "You crafty son of a gun... This is the special door."
+  puts "Can you get lucky twice?"
+  puts "1. Close the door and leave."
+  puts "2. Step inside, and then close the door."
+
+  print "> "
+  magic_choice = $stdin.gets.chomp
+
+  if magic_choice == "1" || magic_choice == "2"
+    puts "Wrong... how pathetic."
+  elsif magic_choice == "8"
+    puts "Congrats! However, I am not impressed by your performance."
   end
 
 else

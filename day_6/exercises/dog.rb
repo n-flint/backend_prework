@@ -12,6 +12,8 @@ class Dog
     @hungry = true
   end
 
+  .
+
   def bark
     p "woof!"
   end
